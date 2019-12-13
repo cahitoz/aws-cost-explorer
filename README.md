@@ -3,7 +3,7 @@
 This PYTHON script retrieves all COST items allocated to an account. If the account is the root account of and Organization then all cost of sub/child accounts is also retrieved.
 
 Below are the cost items that are retrieved.
-``
+```
 [ACCOUNTNO]   AWS Directory Service                    39.0198646426   USD     True<br>
 [ACCOUNTNO]   AWS Key Management Service                           0   USD     True<br>
 [ACCOUNTNO]   Amazon DynamoDB                           0.0000000402   USD     True<br>
