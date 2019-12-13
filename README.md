@@ -3,7 +3,7 @@
 This PYTHON script retrieves all COST items allocated to an account. If the account is the root account of and Organization then all cost of sub/child accounts is also retrieved.
 
 Below are the cost items that are retrieved.
-
+``
 [ACCOUNTNO]   AWS Directory Service                    39.0198646426   USD     True<br>
 [ACCOUNTNO]   AWS Key Management Service                           0   USD     True<br>
 [ACCOUNTNO]   Amazon DynamoDB                           0.0000000402   USD     True<br>
@@ -13,7 +13,7 @@ Below are the cost items that are retrieved.
 [ACCOUNTNO]   Amazon WorkSpaces                        46.9499999976   USD     True<br>
 [ACCOUNTNO]   AmazonCloudWatch                                     0   USD     True<br>
 [ACCOUNTNO]   Tax                                              43.31   USD     True
-
+```
 To use this, you need to install aws-cli on the calling account.
 
 please insert the **aws_access_key_id** and **aws_secret_access_key** to the **./aws/credentials** file
@@ -48,5 +48,4 @@ optional arguments:
                         Where do you want to export the data file in JSON
                         format. Location has to be writable by Python
                 
-'''
 ```
