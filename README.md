@@ -37,7 +37,7 @@ python aws-cost-explorer.py
 
 and will create a cost report of the current month
 
-'''
+```
 usage: aws-cost-explorer.py [-h] [--month MONTH] [--export_file EXPORT_FILE]
 
 optional arguments:
@@ -49,3 +49,4 @@ optional arguments:
                         format. Location has to be writable by Python
                 
 '''
+```
