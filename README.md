@@ -16,4 +16,20 @@ Below are the cost items that are retrieved.
 
 To use this, you need to install aws-cli on the calling account.
 
+please insert the **aws_access_key_id** and **aws_secret_access_key** to the **./aws/credentials** file
+
+![alt text](https://s3.eu-central-1.amazonaws.com/www.cahitoz.com/github/aws-cost-explorer/00.png "credentials")
+
+ First we need to create a user. 
+ 
+![alt text](https://s3.eu-central-1.amazonaws.com/www.cahitoz.com/github/aws-cost-explorer/01.png "New User")
+
+
+The user just needs programmatic access, the user should have to following policy
+
+All read and list rights dhould be provided to the **Cost Explorer Service** service. 
+
+![alt text](https://s3.eu-central-1.amazonaws.com/www.cahitoz.com/github/aws-cost-explorer/02.png "User Rights Policies")
+
+ 
 
