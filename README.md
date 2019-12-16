@@ -33,7 +33,7 @@ All read and list rights dhould be provided to the **Cost Explorer Service** ser
 
  The script can be called with as follows
 
-python aws-cost-explorer.py
+python3 aws-cost-explorer.py
 
 and will create a cost report of the current month
 
@@ -44,8 +44,9 @@ optional arguments:
   -h, --help            show this help message and exit
   --month MONTH         The numerical value of the month whose cost summary we
                         would like to have (1-12)
+  --year YEAR           The numerical value of the year whose cost summary we
+                        would like to have (2019, 2020)
   --export_file EXPORT_FILE
                         Where do you want to export the data file in JSON
-                        format. Location has to be writable by Python
-                
+                        format. Location has to be writable by Python                
 ```
